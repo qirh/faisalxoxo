@@ -3,9 +3,9 @@
     font-size: 1.2rem;
 }
 html, body {
-  height: 100%;
+    height: 100%;
 }
-div, img {
+div {
     margin-top: 2rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -13,6 +13,9 @@ div, img {
 img {
     width: auto;
     height: auto;
-    max-width: 400px;
+    max-width: 95%;
     max-height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
 }
